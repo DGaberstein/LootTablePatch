@@ -1,12 +1,39 @@
 # LootTablePatch
 
-> **LootTablePatch** is a Minecraft Fabric mod for **1.21.1** that automatically patches missing loot tables for other mods, starting with `imst:lumberjack/spruce`.
+
+**LootTablePatch** is a Minecraft Fabric mod with multi-version support (1.18 through 1.21.8) that automatically patches missing loot tables for other mods, starting with `imst:lumberjack/spruce`.
+
+## Supported Minecraft Versions
+- 1.18
+- 1.18.1
+- 1.18.2
+- 1.19
+- 1.19.1
+- 1.19.2
+- 1.19.3
+- 1.19.4
+- 1.20
+- 1.20.1
+- 1.20.4
+- 1.21.1
+- 1.21.2
+- 1.21.3
+- 1.21.4
+- 1.21.5
+- 1.21.6
+- 1.21.7
+- 1.21.8
 
 ---
 
 ## Features
+- Multi-version workspace: Each supported Minecraft version has its own folder with code and resources.
 - Automatically adds missing loot tables to prevent errors and broken gameplay.
 - Starts with support for `imst:lumberjack/spruce` (more can be added easily).
+
+## Project Structure
+- All mod code and resources are organized by version in the `versions/` folder.
+- Legacy root files have been removed for clarity and maintainability.
 - Designed for easy future expansion—patch additional loot tables as needed.
 - Helps both players and modpack creators maintain a smooth experience.
 
