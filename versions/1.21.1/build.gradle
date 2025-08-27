@@ -27,7 +27,7 @@ dependencies {
 }
 
 loom {
-    accessWidenerPath = file('src/main/resources/loottablepatch.accesswidener')
+    accessWidenerPath = file('resources/loottablepatch.accesswidener')
 }
 
 publishing {
