@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "name": "LootTablePatch",
   "description": "Patches missing loot tables for mods (starting with imst:lumberjack/spruce).",
-  "authors": ["YourName"],
+  "authors": ["Daniel Gaberstein"],
   "contact": {},
   "license": "MIT",
   "environment": "*",
