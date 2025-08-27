@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "loottablepatch",
+  "version": "1.0.0",
+  "name": "LootTablePatch",
+  "description": "Patches missing loot tables for mods (starting with imst:lumberjack/spruce).",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.loottablepatch.LootTablePatch"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}
