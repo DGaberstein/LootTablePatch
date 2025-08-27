@@ -47,4 +47,5 @@
 
 ---
 
-**Made for Fabric Loader 0.17.x and Fabric API 0.116.x (Minecraft 1.21.1)**
+**Multi-version support:**
+Works with Fabric Loader and Fabric API versions appropriate for each supported Minecraft version (see individual version folders for details).
