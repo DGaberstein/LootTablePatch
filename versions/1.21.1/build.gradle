@@ -3,9 +3,21 @@ plugins {
     id 'maven-publish'
 }
 
+
 java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'java'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
 }
 
 tasks.withType(Jar).configureEach {
@@ -34,6 +46,17 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
+        }
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'java'
+        }
+        resources {
+            srcDir 'resources'
         }
     }
 }
